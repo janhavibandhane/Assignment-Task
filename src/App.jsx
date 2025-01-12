@@ -7,6 +7,7 @@ import Hero from './Components/HomePage/Hero'
 import Benefits from './Components/HomePage/Benefits'
 import Advantages from './Components/HomePage/Advantages'
 import Features from './Components/HomePage/Features'
+import Video from './Components/HomePage/Video'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
        <Benefits></Benefits>
        <Advantages></Advantages>
        <Features></Features>
+       <Video></Video>
     </>
   )
 }

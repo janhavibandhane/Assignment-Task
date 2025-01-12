@@ -15,7 +15,7 @@ function HomeReusableLayout({ item1, item2,item3,item4 }) {
             </p>
 
             {/* Card */}
-            <div className=" lg:flex lg:flex-row lg:justify-evenly flex flex-col space-y-10 lg:space-y-0 lg:space-x-8">
+            <div className={`lg:flex lg:flex-row lg:justify-evenly flex flex-col space-y-10 lg:space-y-0 lg:space-x-8 `}>
             {item4}
             </div>
           </div>
