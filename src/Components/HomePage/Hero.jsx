@@ -1,4 +1,9 @@
 import img from "/Images/image.png"
+import { FaSpotify } from "react-icons/fa";
+import { SiDoordash } from "react-icons/si";
+import { FaWebflow } from "react-icons/fa6";
+import { FaMailchimp } from "react-icons/fa";
+
 function Hero() {
   return (
     <>
@@ -31,7 +36,15 @@ function Hero() {
 
 
        {/* Logos */}
-       {/* <img src="https://tse4.mm.bing.net/th?id=OIP.nZrLHqqyewGJ6VIC6n9TowHaHa&pid=Api&P=0&h=180"></img> */}
+       <div className="md:flex md:flex-row md:space-y-0 space-y-3 md:space-x-8 lg:space-x-14 mt-8">
+       <div className=" flex md:placeholder md:text-2xl font-bold"><FaMailchimp className="mt-1 mr-1  text-3xl" /><span className="text-black">Mailchimp </span></div>
+       <div className="text-red-500 flex md:text-2xl font-bold"><SiDoordash className="mt-1 mr-1  text-3xl" />DOORDASH</div>
+
+       <div className="text-green-500 flex md:text-2xl font-semibold"><FaSpotify className="mt-1 mr-1  text-3xl" />Spotify</div>
+            <div className="text-blue-500 flex md:text-2xl font-bold"><FaWebflow className="mt-1 mr-1  text-3xl" /><span className="text-black">Webflow</span></div>
+       </div>
+
+
       </div>
       </div>
     </>
