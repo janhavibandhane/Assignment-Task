@@ -12,6 +12,7 @@ import Testimonial from './Components/HomePage/Testimonial'
 import PinkBar from './Components/HomePage/PinkBar'
 import Pricing from './Components/HomePage/Pricing'
 import Footer from './Components/HomePage/Footer'
+import StrimingVideo from './Components/HomePage/StrimingVideo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,9 @@ function App() {
        <Testimonial></Testimonial>
        <PinkBar></PinkBar>
        <Pricing></Pricing>
+       <StrimingVideo></StrimingVideo>
        <Footer></Footer>
+       
     </>
   )
 }

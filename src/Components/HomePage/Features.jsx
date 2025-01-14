@@ -14,8 +14,8 @@ function Features() {
           item2={<>Powerful Features To Elevate Your Workflow</>}
           item4={
             <>
-              <div className="carousel flex flex-wrap  justify-center gap-4  overflow-x-scroll rounded-box">
-                <div className="carousel-item flex-shrink-0">
+              <div className="flex flex-wrap  justify-center gap-4  overflow-x-scroll ">
+                <div className=" ">
                   <HomeReusableCard
                     bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
                     BoxColor="bg-base-200"
@@ -31,7 +31,7 @@ function Features() {
                     }
                   />
                 </div>
-                <div className="carousel-item flex-shrink-0">
+                <div className="">
                   <HomeReusableCard
                     bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
                     BoxColor="bg-base-200"
@@ -47,7 +47,7 @@ function Features() {
                     }
                   />
                 </div>
-                <div className="carousel-item flex-shrink-0">
+                <div className="">
                   <HomeReusableCard
                     bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
                     BoxColor="bg-base-200"
@@ -63,7 +63,7 @@ function Features() {
                     }
                   />
                 </div>
-                <div className="carousel-item flex-shrink-0">
+                {/* <div className="">
                   <HomeReusableCard
                     bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
                     BoxColor="bg-base-200"
@@ -78,7 +78,7 @@ function Features() {
                       </>
                     }
                   />
-                </div>
+                </div> */}
               </div>
             </>
           }

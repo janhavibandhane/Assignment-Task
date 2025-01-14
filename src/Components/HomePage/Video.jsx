@@ -20,11 +20,6 @@ function Video(){
                <div className="pt-5 p-2">
                   <img src={vid} className="md:w-[70rem] md:h-[30rem]"></img>
                </div>
-        
-              
-        
-        
-               
               </div>
               </div>
         </>
