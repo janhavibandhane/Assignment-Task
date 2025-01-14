@@ -37,11 +37,11 @@ function Hero() {
 
        {/* Logos */}
        <div className="md:flex md:flex-row md:space-y-0 space-y-3 md:space-x-8 lg:space-x-14 mt-8">
-       <div className=" flex md:placeholder md:text-2xl font-bold"><FaMailchimp className="mt-1 mr-1  text-3xl" /><span className="text-black">Mailchimp </span></div>
-       <div className="text-red-500 flex md:text-2xl font-bold"><SiDoordash className="mt-1 mr-1  text-3xl" />DOORDASH</div>
+       <div className=" flex md:placeholder md:text-2xl font-bold"><FaMailchimp className="md:mt-1 mr-1  text-3xl" /><span className="text-black">Mailchimp </span></div>
+       <div className="text-red-500 flex md:text-2xl font-bold"><SiDoordash className="md:mt-1 mr-1  text-3xl" />DOORDASH</div>
 
-       <div className="text-green-500 flex md:text-2xl font-semibold"><FaSpotify className="mt-1 mr-1  text-3xl" />Spotify</div>
-            <div className="text-blue-500 flex md:text-2xl font-bold"><FaWebflow className="mt-1 mr-1  text-3xl" /><span className="text-black">Webflow</span></div>
+       <div className="text-green-500 flex md:text-2xl font-semibold"><FaSpotify className="md:mt-1 mr-1  text-3xl" />Spotify</div>
+            <div className="text-blue-500 flex md:text-2xl font-bold"><FaWebflow className="md:mt-1 mr-1  text-3xl" /><span className="text-black">Webflow</span></div>
        </div>
 
 
