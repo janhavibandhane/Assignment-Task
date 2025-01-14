@@ -6,7 +6,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 function Advantages(){
     return(
         <>
-        <div className="  md:mt-[-20rem]">
+        <div className="  lg:mt-[-20rem]">
         <HomeReusableLayout
         item1={<>Advantages</>}
         item2={<>Key Feature To Boots Your Productivity</>}

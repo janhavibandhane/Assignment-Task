@@ -14,8 +14,8 @@ function Features() {
           item2={<>Powerful Features To Elevate Your Workflow</>}
           item4={
             <>
-              <div className="flex flex-wrap  justify-center gap-4  overflow-x-scroll ">
-                <div className=" ">
+              <div className="flex flex-wrap  justify-center gap-4 w-full lg:h-[30rem] md:h-[50rem]  overflow-x-scroll ">
+            
                   <HomeReusableCard
                     bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
                     BoxColor="bg-base-200"
@@ -30,8 +30,8 @@ function Features() {
                       </>
                     }
                   />
-                </div>
-                <div className="">
+              
+           
                   <HomeReusableCard
                     bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
                     BoxColor="bg-base-200"
@@ -46,8 +46,8 @@ function Features() {
                       </>
                     }
                   />
-                </div>
-                <div className="">
+               
+              
                   <HomeReusableCard
                     bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
                     BoxColor="bg-base-200"
@@ -62,23 +62,8 @@ function Features() {
                       </>
                     }
                   />
-                </div>
-                {/* <div className="">
-                  <HomeReusableCard
-                    bgColor="bg-base-100 hover:border hover:border-pink-500 hover:bg-pink-50 w-full w-64 md:w-80 h-auto"
-                    BoxColor="bg-base-200"
-                    IconColor="text-yellow-400"
-                    item1={<IoChatbox />}
-                    item2={<>Team Chat</>}
-                    item3={
-                      <>
-                        Lorem, ipsum dol accusamus dignissimos odit voluptas
-                        dolores mollitia quo perferendis accusantium omnis
-                        blanditiis deserunt cum?
-                      </>
-                    }
-                  />
-                </div> */}
+                
+                
               </div>
             </>
           }
